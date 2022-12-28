@@ -1,3 +1,4 @@
+import { User } from "phosphor-react";
 import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
 import { HeaderContainer } from './styles';
@@ -16,7 +17,7 @@ export function Header() {
           Blog
         </NavLink>
       </nav>
-      <button>Login</button>
+      <button><p>Login</p> <User size={22} weight="light" /></button>
     </HeaderContainer>
   );
 }

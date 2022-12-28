@@ -3,10 +3,11 @@ export const defaultTheme = {
     'primary': '#FFA404',
     'base-title': '#e7edf4',
     'sub': '#B3DEE5',
-    'dark': '#31525B',
+    'dark': '#FAE6B1',
     'base-text': '#afc2d4',
-    'base-background': '#FAE6B1',
+    'base-background': '#31525B',
     'base-input': '#040f1a',
+    'white': '#fff',
   },
 
   textSizes: {
